@@ -121,7 +121,7 @@
   <header>
     <div>
       <nav>
-        <img src="UT_Logo (1).jpg" alt="Logo" class="logo">
+        {% load static %} <img src="{% static "app1/media/ut.jpg" %}" alt="Logo" class="logo">{% endblock %}
         <ul class="navbar">
           <li><a href="#home">Home</a></li>
           <li><a href="#Solution">Solution</a></li>
